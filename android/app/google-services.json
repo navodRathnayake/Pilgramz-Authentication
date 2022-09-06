@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "700437646605",
+    "project_id": "pilgramz-test-mode",
+    "storage_bucket": "pilgramz-test-mode.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:700437646605:android:a181bce8e9ef74afacf444",
+        "android_client_info": {
+          "package_name": "dev.navod.flutter.pilgramz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "700437646605-6ds5esmjid3tir5j5gq7dbghsokpu015.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDV2DlkcA9P47_2cf2gw9j9ntMZXfotJTU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "700437646605-6ds5esmjid3tir5j5gq7dbghsokpu015.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
