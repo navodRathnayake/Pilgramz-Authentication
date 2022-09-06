@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_cube/flutter_cube.dart';
 import 'package:pilgramz/Custom%20Widgets/HorizontalSpace.dart';
 import 'package:pilgramz/Custom%20Widgets/VerticalSpace.dart';
+import 'package:pilgramz/Pages/ObjectViewerPage.dart';
 import 'package:pilgramz/Utils/jason.dart';
 
 class Environment extends StatefulWidget {
@@ -16,6 +17,7 @@ class _EnvironmentState extends State<Environment> {
   @override
   bool isOpen = true;
   int count = 0;
+  Vector3 position = Vector3(12, 2, 1);
   double bottomSheetHeight = 0.85;
   Widget build(BuildContext context) {
     return DraggableScrollableSheet(
@@ -122,6 +124,9 @@ class _EnvironmentState extends State<Environment> {
                       onSceneCreated: (scene) {
                         scene.world.add(Object(
                             fileName: 'assests/3D models/Eiffel Tower.obj'));
+                        scene.camera.zoom = 25.0;
+                        scene.camera.position;
+                        scene.light;
                       },
                     ),
                   ),
@@ -130,7 +135,15 @@ class _EnvironmentState extends State<Environment> {
                       foregroundColor: Theme.of(context).colorScheme.onPrimary,
                       backgroundColor: Theme.of(context).colorScheme.primary,
                     ).copyWith(elevation: ButtonStyleButton.allOrNull(0.0)),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ObjectViewerPage(
+                                pageTitle: 'Eifell Tower',
+                                objPath: 'assests/3D models/Eiffel Tower.obj'),
+                          ));
+                    },
                     child: const Text('Open in new page'),
                   ),
                   VerticalSpace(height: 10),
