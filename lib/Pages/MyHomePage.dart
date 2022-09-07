@@ -89,7 +89,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
                         themedata: themedata,
                         width: size.width),
                     Story(themedata: themedata),
-                    Events(),
+                    Events(themedata: widget.themedata),
                   ],
                 ),
               ))
