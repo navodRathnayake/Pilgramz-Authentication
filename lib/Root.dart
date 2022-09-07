@@ -19,7 +19,7 @@ class _RootState extends State<Root> {
     final ThemeData themedata = Theme.of(context);
     final screens = [
       MyHomePage(themedata: themedata),
-      Profile(),
+      Profile(themedata: themedata),
       Messages(),
       PilgramzNotifications()
     ];
