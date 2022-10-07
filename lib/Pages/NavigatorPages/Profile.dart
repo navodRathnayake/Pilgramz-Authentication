@@ -50,7 +50,7 @@ class _ProfileState extends State<Profile> {
                     //profileTags(count: '21K', child: Icon(Icons.favorite)),
                     //],
                     //),
-                    ElevatedButton(onPressed: () {}, child: Text('Follow'))
+                    //ElevatedButton(onPressed: () {}, child: Text('Follow'))
                   ],
                 ),
               ),
