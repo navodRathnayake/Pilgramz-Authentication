@@ -20,7 +20,7 @@ class _RootState extends State<Root> {
     final screens = [
       MyHomePage(themedata: themedata),
       Profile(themedata: themedata),
-      Messages(),
+      Messages(themedata: themedata),
       PilgramzNotifications()
     ];
     return Scaffold(
