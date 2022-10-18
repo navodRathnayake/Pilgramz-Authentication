@@ -21,7 +21,9 @@ class _RootState extends State<Root> {
       MyHomePage(themedata: themedata),
       Profile(themedata: themedata),
       Messages(themedata: themedata),
-      PilgramzNotifications()
+      PilgramzNotifications(
+        themedata: themedata,
+      )
     ];
     return Scaffold(
       body: screens[currentIndex],
