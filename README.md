@@ -4,6 +4,8 @@ The purpose of this project is to develop a Social Media Travel Application whic
 people to make new connections with others and to travel all over the world leisurely without
 any hassle with quality content about different places all over the world.
 
+## UI 
+
 ![1](https://user-images.githubusercontent.com/82445185/196844614-1249f40f-cdc4-4134-8604-51d5cdc0dd6d.png)
 ![2](https://user-images.githubusercontent.com/82445185/196844618-e8677480-365a-4726-b90d-871dbc62859c.png)
 ![22](https://user-images.githubusercontent.com/82445185/196844623-9963a31d-febb-4315-959e-8f5ca3b4d046.png)
