@@ -1,6 +1,8 @@
 # pilgramz
 
-A new Flutter project.
+The purpose of this project is to develop a Social Media Travel Application which will help
+people to make new connections with others and to travel all over the world leisurely without
+any hassle with quality content about different places all over the world.
 
 ## Getting Started
 
